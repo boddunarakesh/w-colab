@@ -7,7 +7,7 @@ read -p "Ctrl + V Authtoken: " CRP
 nohup ./ngrok tcp 3389 &>/dev/null &
 echo Downloading File From t.me/filewire
 echo "===================================="
-echo "Wait 2 Minutes"
+echo "Wait 3 Minutes"
 echo "This is only for education"
 echo "Other interesting tutorials visit t.me/filewire"
 echo "===================================="
@@ -16,6 +16,18 @@ echo "===================================="
 echo "Install Firefox"
 echo "===================================="
 sudo apt install firefox -y > /dev/null 2>&1
+echo "===================================="
+echo "Install qbittorrent"
+echo "===================================="
+sudo apt install qbittorrent -y > /dev/null 2>&1
+echo "===================================="
+echo "Install HandBrake"
+echo "===================================="
+sudo apt install mkvtoolnix mkvtoolnix-gui -y > /dev/null 2>&1
+echo "===================================="
+echo "Install VLC Player"
+echo "===================================="
+sudo apt install vlc -y > /dev/null 2>&1
 echo "===================================="
 echo "Install RDP"
 echo "===================================="
