@@ -11,6 +11,8 @@ echo "Wait 3 Minutes"
 echo "This is only for education"
 echo "Other interesting tutorials visit t.me/filewire"
 echo "===================================="
+sudo add-apt-repository ppa:stebbins/handbrake-releases
+echo "===================================="
 sudo apt-get update > /dev/null 2>&1
 echo "===================================="
 echo "Install Firefox"
@@ -22,6 +24,9 @@ echo "===================================="
 sudo apt install qbittorrent -y > /dev/null 2>&1
 echo "===================================="
 echo "Install HandBrake"
+echo "===================================="
+sudo apt-get install handbrake-cli handbrake-gtk -y > /dev/null 2>&1
+echo "Install MKVToolnix"
 echo "===================================="
 sudo apt install mkvtoolnix mkvtoolnix-gui -y > /dev/null 2>&1
 echo "===================================="
