@@ -11,6 +11,7 @@ echo "Wait 3 Minutes"
 echo "This is only for education"
 echo "Other interesting tutorials visit t.me/filewire"
 echo "===================================="
+echo "Adding Repository & apt updating"
 sudo add-apt-repository ppa:stebbins/handbrake-releases -y  > /dev/null 2>&1
 echo "===================================="
 sudo apt-get update > /dev/null 2>&1
