@@ -27,6 +27,7 @@ echo "===================================="
 echo "Install HandBrake"
 echo "===================================="
 sudo apt-get install handbrake-cli handbrake-gtk -y > /dev/null 2>&1
+echo "===================================="
 echo "Install MKVToolnix"
 echo "===================================="
 sudo apt install mkvtoolnix mkvtoolnix-gui -y > /dev/null 2>&1
