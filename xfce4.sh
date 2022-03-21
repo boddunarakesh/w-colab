@@ -7,7 +7,7 @@ read -p "Ctrl + V Authtoken: " CRP
 nohup ./ngrok tcp 3389 &>/dev/null &
 echo Downloading File From t.me/filewire
 echo "===================================="
-echo "Wait 3 Minutes"
+echo "Wait 4-5 Minutes"
 echo "This is only for education"
 echo "Other interesting tutorials visit t.me/filewire"
 echo "===================================="
