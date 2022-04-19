@@ -24,6 +24,11 @@ echo "Install qbittorrent"
 echo "===================================="
 sudo apt install qbittorrent -y > /dev/null 2>&1
 echo "===================================="
+echo "Install FFMPG"
+echo "===================================="
+sudo apt-get install ffmpg -y > /dev/null 2>&1
+sudo pip install vcsi > /dev/null 2>&1
+echo "===================================="
 echo "Install HandBrake"
 echo "===================================="
 sudo apt-get install handbrake-cli handbrake-gtk -y > /dev/null 2>&1
