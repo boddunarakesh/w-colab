@@ -1,10 +1,5 @@
 echo "Download ngrok"
-wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip > /dev/null 2>&1
-unzip ngrok-stable-linux-amd64.zip > /dev/null 2>&1
-unzip ngrok-stable-linux-amd64.zip.1 > /dev/null 2>&1
-read -p "Ctrl + V Authtoken: " CRP 
-./ngrok authtoken $CRP 
-nohup ./ngrok tcp 3389 &>/dev/null &
+wget https://raw.githubusercontent.com/boddunarakesh/w-colab/main/ngrok.sh && chmod +x ngrok.sh && ./ngrok.sh
 echo Downloading File From t.me/filewire
 echo "===================================="
 echo "Wait 4-5 Minutes"
